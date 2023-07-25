@@ -7,7 +7,7 @@ $request_method = $_SERVER['REQUEST_METHOD'];
 // Check if the request is GET or POST
 if ($request_method =='GET') {
     // If the request is GET, append the query string to the target URL
-    $target_url .= '?' . http_build_query($_GET);
+   // $target_url .= '?' . http_build_query($_GET);
     $request_data = null;
 } else if ($request_method == 'POST') {
     // If the request is POST, send the POST data to the target server
