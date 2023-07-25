@@ -1,6 +1,6 @@
 <?php
 // Set the URL of the target server
-$target_url =$_GET['url'];
+$target_url =urldecode($_GET['url']);
 // Check the request method
 $request_method = $_SERVER['REQUEST_METHOD'];
 
