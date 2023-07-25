@@ -1,6 +1,6 @@
 <?php
 // Set the URL of the target server
-$target_url =$_GET['url'] ;
+$target_url ='http://memdb.dyndns.org:8001/?id=3&page=getShop' ;
 
 // Check the request method
 $request_method = $_SERVER['REQUEST_METHOD'];
